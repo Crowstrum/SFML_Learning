@@ -25,6 +25,8 @@ H_FILES
 ${INCLUDESDIR}/Game.hpp 
 ${INCLUDESDIR}/ResourceHolder.hpp 
 ${INCLUDESDIR}/ResourceHolder.inl
+${INCLUDESDIR}/Entity.hpp
+${INCLUDESDIR}/Ship.hpp
 )
 include_directories(include)
 
@@ -33,6 +35,8 @@ set(
 CPP_FILES
 ${SRCDIR}/main.cpp
 ${SRCDIR}/Game.cpp
+${SRCDIR}/Entity.cpp
+${SRCDIR}/Ship.cpp
 )
 
 add_executable(CMakeStarter ${CPP_FILES} ${H_FILES})
