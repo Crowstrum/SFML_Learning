@@ -1,5 +1,5 @@
 #include "Game.hpp"
-#include "TextureHolder.hpp"
+#include "ResourceHolder.hpp"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 

@@ -23,8 +23,8 @@ set(INCLUDESDIR "include")
 set(
 H_FILES 
 ${INCLUDESDIR}/Game.hpp 
-${INCLUDESDIR}/TextureHolder.hpp 
-${INCLUDESDIR}/TextureHolder.inl
+${INCLUDESDIR}/ResourceHolder.hpp 
+${INCLUDESDIR}/ResourceHolder.inl
 )
 include_directories(include)
 
